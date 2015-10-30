@@ -25,9 +25,9 @@
     <!-- Short title + brief info + image -->
     <div class="container col-md-6">
       <h1>Reviews for the Krusty Krab</h1>
-      <p>Occasionally mistaken for a lobster trap, the <strong>Krusty Krab</strong> is a restaurant in the Bikini Bottom. It is famous for its Krabby Patty. It is currently owned by Mr. Krabs, a red crab. A sponge and a squid can be found working there. A starfish helps from time to time.
-      </p>
-      <p>If you have attended this restaurant as a customer and would like to submit a review, please fill out the form and we will add it to our website! Remember, information is power.</p>
+      <div id = "average"></div>
+      <p>Occasionally mistaken for a lobster trap, the <strong>Krusty Krab</strong> is a restaurant in the Bikini Bottom. It is famous for its Krabby Patty. It is currently owned by Mr. Krabs, a red crab. A sponge and a squid can be found working there, and a starfish helps from time to time.</p>
+      <p>Please submit a review so that a plankton can take over -- *ahem* -- improve the Krusty Krab. Remember, information is power.</p>
       <img src = "img/krusty_krab.png" class = "img-rounded img-responsive" alt = "Krusty Krab" />
     </div>
     <div class="container col-md-6">
@@ -41,17 +41,14 @@
           <label for="body">Review</label>
           <textarea class = "form-control form-input resizable" form = "form" id = "body" placeholder="This is where you review the food establishment in question. Please, no inflammatory language (including the language of dolphins)."></textarea>
         </div>
-        <div id = "star"></div>
+        <div id = "rating"></div>
         <br>
         <button type="submit" class="btn btn-success">Submit your review</button>
       </form>
     </div>
     <div class = "container col-md-6">
       <h2>Submitted Reviews</h2>
-      <div id = "rating">
-        <ul id = "list">
-        </ul>
-      </div>
+      <div id = "list"></div>
     </div>
   </body>
   <script type = "text/javascript" src = "js/review.js"></script>
